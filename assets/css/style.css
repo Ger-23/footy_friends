@@ -10,3 +10,43 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
 }
+
+/* title and headings */
+
+#title, h1, h2 {
+    font-family: 'Rampart One', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+#title {
+    float: left;
+    font-size: 300%;
+}
+
+ul li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+    }
+
+/* nav links */
+
+#title, #navdiv {
+    line-height: 100px;
+}
+
+#navdiv {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#navdiv a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navdiv a:hover {
+    color: green
+}
