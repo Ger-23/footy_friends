@@ -9,6 +9,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
+    background-color: #f2fff6;
 }
 
 /* title and headings */
@@ -53,6 +54,44 @@ ul li {
 }
 
 img {
-    height: 600px;
+    height: 800px;
     width: 100%;
+}
+
+/* Content */
+
+#section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+#when {
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+
+#timetable {
+    margin-left: 25%;
+}
+
+#timetable, tr, td {
+    border: 10px ridge;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#about h1 {
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+
+#when h2 {
+    font-size: 200%;
 }
