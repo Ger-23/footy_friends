@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rampart+One&display=swap');
 
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     border: none;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    background-color: #f2fff6;
+    font-weight: 600;
 }
 
 /* title and headings */
@@ -60,25 +59,28 @@ img {
 
 /* Content */
 
-#section {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 #about {
+    display:block;
     text-align: center;
-    width: 50%;
-    float: left;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
 }
 
 #when {
+    display: block;
     text-align: center;
-    width: 50%;
-    float: right;
 }
 
 #timetable {
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #timetable, tr, td {
@@ -87,11 +89,38 @@ img {
     margin-top: 30px;
 }
 
-#about h1 {
+#about h2 {
     font-size: 200%;
     margin-bottom: 30px;
 }
 
 #when h2 {
     font-size: 200%;
+}
+
+#registration h2 {
+    font-size: 200%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Form Registration */
+
+
+#registration {
+    display: block;
+    text-align: center;
+}
+
+.form {
+    border: 1px solid;
+}
+
+#signup {
+    margin-top: 50px;
+}
+#form2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }

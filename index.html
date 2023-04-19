@@ -14,42 +14,86 @@
 <body>
 
     <!--navigation-->
-
-    <nav>
-        <div id="navdiv">
-            <ul>
-                <li id=title><a href="#">Footy Friends</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!--Header-->
-
     <header>
+        <nav>
+            <div id="navdiv">
+                <h1 id=title>Footy Friends</h1>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
         <img src="assets/images/pexel_pitch1.webp" alt="ball in front of goal on football pitch in stadium">
     </header>
 
     <!--Content-->
 
-    <section id="section">
-            <div id="about">
-                <h1>About Us</h1>
-                <p>Missing out on your favourite cardio kick because you're having trouble getting everyone together for a game? Whether it's work or family obligations or frequent injuries preventing your team getting together, or you just want to meet new and fun people, we can help! Leave the organising to us so that you can concentrate on the playing! <br> Here's how it works: Once you've signed up, we'll contact you each match day to confirm your availability. Then we'll give you all the information you need to join and play. It's that simple! </p>
-            </div>
-            <aside id="when">
-                <h2>When</h2>
-                <table id="timetable">
-                    <tr><td>Monday</td><td>7-9pm</td><td>Thursday</td><td>7-9pm</td></tr>
-                    <tr><td>Tuesday</td><td>7-9pm</td><td>Friday</td><td>7-9pm</td></tr>
-                    <tr><td>Wednesday</td><td>7-9pm</td><td>Saturday</td><td>12-9pm</td></tr>
-                </table>
-            </aside>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Missing out on your favourite cardio kick because you're having trouble getting everyone together for a
+            game? Whether it's work or family obligations or frequent injuries preventing your team getting
+            together, or you just want to meet new and fun people, we can help! Leave the organising to us so that
+            you can concentrate on the playing! <br> Here's how it works: For only €5 per game, once you've signed up,
+            we'll contact you
+            each match day to confirm your availability. Then we'll give you all the information you need to join
+            and play. It's that simple! </p>
     </section>
-    <section>form</section>
+    <aside id="when">
+        <h2>When</h2>
+        <table id="timetable">
+            <tr>
+                <td>Monday</td>
+                <td>7-9pm</td>
+                <td>Thursday</td>
+                <td>7-9pm</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>7-9pm</td>
+                <td>Friday</td>
+                <td>7-9pm</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>7-9pm</td>
+                <td>Saturday</td>
+                <td>12-9pm</td>
+            </tr>
+        </table>
+    </aside>
+
+    <!--Registration-->
+
+    <div id="registration">
+        <h2 id="signup">Sign Up Now!</h2>
+        <form id="form2" action="https://formdump.codeinstitute.net/" method="POST">
+            <fieldset class="form">
+                <legend>Player Details</legend>
+            <label for="fname">First Name</label>
+            <input class="form" type="text" required>
+            <label for="lname">Last Name</label>
+            <input class="form" type="text" required>
+            </fieldset>
+            <fieldset class="form" >
+                <legend>Contact Info</legend>
+            <label for="pnumber">Phone Number</label>
+            <input class="form" type="number" required>
+            <label for="email">Email</label>
+            <input class="form" type="email" required>
+            </fieldset>
+            <fieldset class="form" >
+                <legend>Preferences</legend>
+            <label for="pdays">Preferred Days</label>
+            <input class="form" type="text" required>
+            <label for="ptimes">Preferred Times</label>
+            <input class="form" type="time" required>
+            </fieldset>
+            <input class="form" type="submit">
+        </form>
+    </div>
+
     <footer>contact</footer>
 </body>
-
-</html>
