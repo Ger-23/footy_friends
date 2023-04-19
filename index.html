@@ -19,9 +19,9 @@
             <div id="navdiv">
                 <h1 id=title>Footy Friends</h1>
                 <ul>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#registration">Register</a></li>
+                    <li><a href="#about">About</a></li>
                 </ul>
             </div>
         </nav>
@@ -72,28 +72,46 @@
         <form id="form2" action="https://formdump.codeinstitute.net/" method="POST">
             <fieldset class="form">
                 <legend>Player Details</legend>
-            <label for="fname">First Name</label>
-            <input class="form" type="text" required>
-            <label for="lname">Last Name</label>
-            <input class="form" type="text" required>
+                <label for="fname">First Name</label>
+                <input class="form" type="text" required>
+                <label for="lname">Last Name</label>
+                <input class="form" type="text" required>
             </fieldset>
-            <fieldset class="form" >
+            <fieldset class="form">
                 <legend>Contact Info</legend>
-            <label for="pnumber">Phone Number</label>
-            <input class="form" type="number" required>
-            <label for="email">Email</label>
-            <input class="form" type="email" required>
+                <label for="pnumber">Phone Number</label>
+                <input class="form" type="number" required>
+                <label for="email">Email</label>
+                <input class="form" type="email" required>
             </fieldset>
-            <fieldset class="form" >
+            <fieldset class="form">
                 <legend>Preferences</legend>
-            <label for="pdays">Preferred Days</label>
-            <input class="form" type="text" required>
-            <label for="ptimes">Preferred Times</label>
-            <input class="form" type="time" required>
+                <label for="pdays">Preferred Days</label>
+                <input class="form" type="text" required>
+                <label for="ptimes">Preferred Times</label>
+                <input class="form" type="time" required>
             </fieldset>
             <input class="form" type="submit">
         </form>
     </div>
 
-    <footer>contact</footer>
+    <!--Footer-->
+
+    <footer id="footer">
+        <ul id="contact">
+            <li><a href="https://www.facebook.com" target="blank" rel="noopener"><i
+                        class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com" target="blank" rel="noopener"><i
+                        class="fa-brands fa-instagram"></i></i></a></li>
+            <li><a href="https://www.youtube.com" target="blank" rel="noopener"><i
+                        class="fa-brands fa-youtube"></i></i></a></li>
+            <li><a href="https://www.twitter.com" target="blank" rel="noopener"><i
+                        class="fa-brands fa-twitter"></i></i></a></li>
+        </ul>
+    </footer>
+
+    <!--Font Awesome script-->
+    <script src="https://kit.fontawesome.com/85bebb31e0.js" crossorigin="anonymous"></script>
 </body>
+
+</html>
