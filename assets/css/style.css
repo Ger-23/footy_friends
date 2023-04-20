@@ -130,6 +130,10 @@ img {
     margin-right: auto;
 }
 
+.form1 {
+    border: 1px dashed;
+}
+
 #submit {
     border: 10px ridge;
     padding: 5px;
@@ -159,4 +163,13 @@ img {
     padding: 50px;
 }
 
+#contact a {
+    color: inherit;
+}
 
+/* section borders */
+
+#about, #when, #aside, #registration, img {
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
