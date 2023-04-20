@@ -13,7 +13,9 @@ body {
 
 /* title and headings */
 
-#title, h1, h2 {
+#title,
+h1,
+h2 {
     font-family: 'Rampart One', sans-serif;
     text-transform: capitalize;
     letter-spacing: 3px;
@@ -30,11 +32,12 @@ body {
     list-style-type: none;
     margin-right: 20px;
     text-decoration: none;
-    }
+}
 
 /* nav links */
 
-#title, #navdiv {
+#title,
+#navdiv {
     line-height: 100px;
 }
 
@@ -61,7 +64,7 @@ img {
 
 
 #about {
-    display:block;
+    display: block;
     margin-top: 100px;
     text-align: center;
 }
@@ -85,7 +88,9 @@ img {
     margin-right: auto;
 }
 
-#timetable, tr, td {
+#timetable,
+tr,
+td {
     border: 10px ridge;
     padding: 10px;
     margin-top: 50px;
@@ -122,6 +127,7 @@ img {
 #signup {
     margin-top: 50px;
 }
+
 #form2 {
     width: 800px;
     border: 10px ridge;
@@ -158,7 +164,7 @@ img {
     color: inherit;
 }
 
- #contact li {
+#contact li {
     display: inline;
     margin-top: 100px;
     padding: 50px;
@@ -170,7 +176,11 @@ img {
 
 /* section borders */
 
-#about, #when, #aside, #registration, img {
+#about,
+#when,
+#aside,
+#registration,
+img {
     border-bottom: 1px solid;
     padding-bottom: 30px;
 }
@@ -178,11 +188,13 @@ img {
 /* media queries */
 
 @media screen and (max-width: 900px) {
-    
-#form2 {
-    transform: scale(0.75);
+
+    #form2 {
+        transform: scale(0.75);
+    }
 }
-}@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rampart+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rampart+One&display=swap');
 
 * {
     margin: 0;
@@ -197,7 +209,9 @@ body {
 
 /* title and headings */
 
-#title, h1, h2 {
+#title,
+h1,
+h2 {
     font-family: 'Rampart One', sans-serif;
     text-transform: capitalize;
     letter-spacing: 3px;
@@ -214,11 +228,12 @@ body {
     list-style-type: none;
     margin-right: 20px;
     text-decoration: none;
-    }
+}
 
 /* nav links */
 
-#title, #navdiv {
+#title,
+#navdiv {
     line-height: 100px;
 }
 
@@ -245,7 +260,7 @@ img {
 
 
 #about {
-    display:block;
+    display: block;
     margin-top: 100px;
     text-align: center;
 }
@@ -269,7 +284,9 @@ img {
     margin-right: auto;
 }
 
-#timetable, tr, td {
+#timetable,
+tr,
+td {
     border: 10px ridge;
     padding: 10px;
     margin-top: 50px;
@@ -306,6 +323,7 @@ img {
 #signup {
     margin-top: 50px;
 }
+
 #form2 {
     width: 800px;
     border: 10px ridge;
@@ -341,7 +359,7 @@ img {
     color: inherit;
 }
 
- #contact li {
+#contact li {
     display: inline;
     margin-top: 100px;
     padding: 50px;
@@ -354,7 +372,11 @@ img {
 
 /* section borders */
 
-#about, #when, #aside, #registration, img {
+#about,
+#when,
+#aside,
+#registration,
+img {
     border-bottom: 1px solid;
     padding-bottom: 30px;
 }
@@ -370,6 +392,12 @@ img {
         width: 600px;
     }
 
+    #contact li {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
 }
 
 @media screen and (max-width: 670px) {
@@ -377,19 +405,17 @@ img {
         width: 200px;
     }
 
-    #contact li {
-        display: inline-block;
-        margin-top: 30px;
-        font-size: 30px;
-        padding: 10px;
-    }
-       
     table {
         transform: scale(0.75);
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520x) {
+    #contact li {
+        padding: 5px;
+        margin: 10px;
+    }
+
     table {
         transform: scale(0.5);
     }
