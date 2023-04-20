@@ -132,6 +132,7 @@ img {
 
 .form1 {
     border: 1px dashed;
+    justify-content: center;
 }
 
 #submit {
@@ -179,17 +180,188 @@ img {
 @media screen and (max-width: 900px) {
     
 #form2 {
-    width: 600px;
+    transform: scale(0.75);
 }
+}@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rampart+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-@media screen and (max-width: 500px) {
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+/* title and headings */
+
+#title, h1, h2 {
+    font-family: 'Rampart One', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+#title {
+    float: left;
+    font-size: 300%;
+    margin: 10px;
+}
+
+#navdiv li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+    }
+
+/* nav links */
+
+#title, #navdiv {
+    line-height: 100px;
+}
+
+#navdiv {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#navdiv a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navdiv a:hover {
+    color: green
+}
+
+img {
+    height: 800px;
+    width: 100%;
+}
+
+/* Content */
+
+
+#about {
+    display:block;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+}
+
+#when {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
 
 #timetable {
-    width: 200px
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#form2 {
-    width: 350px;    
+#timetable, tr, td {
+    border: 10px ridge;
+    padding: 10px;
+    margin-top: 50px;
 }
+
+#about h2 {
+    font-size: 200%;
+    margin-bottom: 50px;
+}
+
+#when h2 {
+    font-size: 200%;
+}
+
+#registration h2 {
+    font-size: 200%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Form Registration */
+
+
+#registration {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form {
+    border: 10px ridge;
+}
+
+#signup {
+    margin-top: 50px;
+}
+#form2 {
+    width: 50%;
+    border: 10px ridge;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form1 {
+    border: 1px dashed;
+}
+
+#submit {
+    border: 10px ridge;
+    padding: 5px;
+}
+
+#submit:hover {
+    color: green
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 100px;
+    height: 100px;
+}
+
+#contact {
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    color: inherit;
+}
+
+ #contact li {
+    display: inline;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+#contact a {
+    color: inherit;
+}
+
+/* section borders */
+
+#about, #when, #aside, #registration, img {
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 900px) {
+    nav ul {
+        float: left;
+    }
 }
