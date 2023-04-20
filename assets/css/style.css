@@ -307,7 +307,7 @@ img {
     margin-top: 50px;
 }
 #form2 {
-    width: 50%;
+    width: 800px;
     border: 10px ridge;
     padding: 10px;
     margin-left: auto;
@@ -349,6 +349,7 @@ img {
 
 #contact a {
     color: inherit;
+    padding: 30px;
 }
 
 /* section borders */
@@ -360,8 +361,36 @@ img {
 
 /* media queries */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     nav ul {
         float: left;
+    }
+
+    #form2 {
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    #form2 {
+        width: 200px;
+    }
+
+    #contact li {
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 30px;
+        padding: 10px;
+    }
+       
+    table {
+        transform: scale(0.75);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    table {
+        transform: scale(0.5);
     }
 }
