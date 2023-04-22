@@ -192,9 +192,6 @@ img {
     #form2 {
         transform: scale(0.75);
     }
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rampart+One&display=swap');
 
 * {
     margin: 0;
@@ -410,7 +407,7 @@ img {
     }
 }
 
-@media screen and (max-width: 520x) {
+@media screen and (max-width: 520px) {
     #contact li {
         padding: 5px;
         margin: 10px;
@@ -419,4 +416,4 @@ img {
     table {
         transform: scale(0.4);
     }
-}
+}}

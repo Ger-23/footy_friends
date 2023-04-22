@@ -55,3 +55,59 @@ This site aims to give people who love football the opportunity to play a game w
     - The section includes well-known icons as links to Facebook, Instagram, Youtube and Twitter.
 
 ![screenshot of social media contact links in footer](assets/images/contact.jpg)
+
+## Testing
+
+- Site was opened on multiple browsers - Chrome, Firefox and Microsoft Edge.
+
+- Responsiveness was tested using Devtools
+
+- All of the navigation links work fully in both the navigation section in the header and in the footer
+
+- The form works fully in that it will only submit when all of the required fields are filled out with the appropriate information type
+
+## Validator Testing
+
+- No errors or warnings to show when tested in the official W3C validator - HTML
+
+- No errors or warnings to show when tested in the official jigsaw W3C validator - CSS
+
+- Fonts and colors are good and site accessible as confirmed by Lighthouse
+
+## Bugs
+
+   - There are no bugs
+
+## Deployment
+
+   - Site deployed to GitHub pages by the following steps:
+
+     - Go Github repository
+
+     - Open settings
+
+     - Go to Pages
+
+     - From the Source drop-down menu select to deploy from a branch
+
+     - From the branch drop-down menu select main
+
+     - Click Save and the site link to the website is provided
+
+The live link is here: [Footy Friends](https://ger-23.github.io/footy_friends/)
+
+## Credits
+
+   - Content
+     
+     - The code for the navigation in the header was influenced by the Love Running Project
+
+     - Google and W3C tutorial provided helpful information for developing the site
+
+   - Media
+     
+     - Main image was taken from Pexels.com
+
+     - Social media link icons were taken from Font Awesome
+
+     - Font styles were take from Google Fonts
