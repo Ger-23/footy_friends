@@ -72,12 +72,12 @@ This site aims to give people who love football the opportunity to play a game w
 
 - No errors or warnings to show when tested in the official jigsaw W3C validator - CSS
 
-- Fonts and colors are good and site accessible as confirmed by Lighthouse
+- Fonts and colors are good and site accessible as confirmed by Lighthouse.
 
 ## Bugs
 
    - There are no bugs
-
+   
 ## Deployment
 
    - Site deployed to GitHub pages by the following steps:
@@ -100,14 +100,14 @@ The live link is here: [Footy Friends](https://ger-23.github.io/footy_friends/)
 
    - Content
      
-     - The code for the navigation in the header was influenced by the Love Running Project
+     - The code for the navigation in the header was influenced by the Love Running Project.
 
-     - Google and W3C tutorial provided helpful information for developing the site
+     - Google and W3C tutorial provided helpful information for developing the site.
 
    - Media
      
-     - Main image was taken from Pexels.com
+     - Main image was taken from Pexels.com.
 
-     - Social media link icons were taken from Font Awesome
+     - Social media link icons were taken from Font Awesome.
 
-     - Font styles were take from Google Fonts
+     - Font styles were take from Google Fonts.
